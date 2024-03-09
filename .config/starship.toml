@@ -1,0 +1,53 @@
+[username]
+style_user = "bold fg:#ff00ff"
+style_root = "red bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = true
+format = '[$ssh_symbol](bold blue) on [$hostname](bold red) '
+trim_at = '.mitre.org'
+disabled = false
+
+[localip]
+ssh_only=true
+format='@[$localipv4](bold red) '
+disabled=false
+
+[cmd_duration]
+min_time = 4
+show_milliseconds = false
+disabled = false
+style = "bold italic red"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[✗](bold red)"
+
+
+[docker_context]
+format = "[$symbol$context]($style) "
+style = "blue bold"
+only_with_files = true
+detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
+detect_folders = []
+disabled = true
+
+[git_branch]
+style = 'fg:#ff7b00'
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[python]
+format = '[${symbol}(${version} )(\($virtualenv\) )]($style)'
+style = 'fg:#fcba03'
+version_format = '${raw}'
+
+[nodejs]
+format = '[$symbol($version )]($style)'
+
+[package]
+symbol = " "
+style='cyan'
+disabled = true

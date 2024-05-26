@@ -52,6 +52,9 @@
     "doubleClickTitleBar" : {
       "int" : 0
     },
+    "doubleClickTitleBarIgnoredApps" : {
+
+    },
     "doubleClickTitleBarRestore" : {
       "int" : 0
     },
@@ -143,7 +146,7 @@
       "float" : 0
     },
     "screenEdgeGapsOnMainScreenOnly" : {
-      "bool" : false
+      "bool" : true
     },
     "screenEdgeGapTop" : {
       "float" : 7
@@ -190,6 +193,12 @@
     "SUEnableAutomaticChecks" : {
       "bool" : false
     },
+    "systemWideMouseDown" : {
+      "int" : 0
+    },
+    "systemWideMouseDownApps" : {
+
+    },
     "todo" : {
       "int" : 0
     },
@@ -218,39 +227,47 @@
   "shortcuts" : {
     "almostMaximize" : {
       "keyCode" : 3,
-      "modifierFlags" : 262144
+      "modifierFlags" : 524288
+    },
+    "bottomHalf" : {
+      "keyCode" : 125,
+      "modifierFlags" : 786432
     },
     "bottomLeft" : {
-      "keyCode" : 12,
-      "modifierFlags" : 786432
+      "keyCode" : 6,
+      "modifierFlags" : 917504
     },
     "bottomRight" : {
-      "keyCode" : 13,
-      "modifierFlags" : 786432
+      "keyCode" : 7,
+      "modifierFlags" : 917504
     },
     "center" : {
       "keyCode" : 8,
       "modifierFlags" : 1179648
     },
+    "centerHalf" : {
+      "keyCode" : 19,
+      "modifierFlags" : 524288
+    },
     "centerThird" : {
       "keyCode" : 1,
-      "modifierFlags" : 262144
+      "modifierFlags" : 524288
     },
     "firstFourth" : {
       "keyCode" : 6,
-      "modifierFlags" : 786432
+      "modifierFlags" : 524288
     },
     "firstThird" : {
       "keyCode" : 0,
-      "modifierFlags" : 262144
+      "modifierFlags" : 524288
     },
     "firstThreeFourths" : {
       "keyCode" : 7,
-      "modifierFlags" : 1835008
+      "modifierFlags" : 655360
     },
     "firstTwoThirds" : {
       "keyCode" : 0,
-      "modifierFlags" : 1835008
+      "modifierFlags" : 655360
     },
     "larger" : {
       "keyCode" : 24,
@@ -258,43 +275,39 @@
     },
     "lastFourth" : {
       "keyCode" : 9,
-      "modifierFlags" : 786432
+      "modifierFlags" : 524288
     },
     "lastThird" : {
       "keyCode" : 2,
-      "modifierFlags" : 262144
+      "modifierFlags" : 524288
     },
     "lastThreeFourths" : {
       "keyCode" : 8,
-      "modifierFlags" : 1835008
+      "modifierFlags" : 655360
     },
     "lastTwoThirds" : {
       "keyCode" : 2,
-      "modifierFlags" : 1835008
+      "modifierFlags" : 655360
     },
     "leftHalf" : {
       "keyCode" : 12,
-      "modifierFlags" : 262144
+      "modifierFlags" : 524288
     },
     "maximize" : {
       "keyCode" : 3,
       "modifierFlags" : 1441792
     },
-    "moveDown" : {
-      "keyCode" : 125,
-      "modifierFlags" : 786432
-    },
-    "moveLeft" : {
-      "keyCode" : 123,
-      "modifierFlags" : 786432
-    },
-    "moveRight" : {
-      "keyCode" : 124,
-      "modifierFlags" : 786432
-    },
-    "moveUp" : {
+    "maximizeHeight" : {
       "keyCode" : 126,
-      "modifierFlags" : 786432
+      "modifierFlags" : 917504
+    },
+    "nextDisplay" : {
+      "keyCode" : 124,
+      "modifierFlags" : 1835008
+    },
+    "previousDisplay" : {
+      "keyCode" : 123,
+      "modifierFlags" : 1835008
     },
     "reflowTodo" : {
       "keyCode" : 45,
@@ -306,11 +319,11 @@
     },
     "rightHalf" : {
       "keyCode" : 13,
-      "modifierFlags" : 262144
+      "modifierFlags" : 524288
     },
     "secondFourth" : {
       "keyCode" : 7,
-      "modifierFlags" : 786432
+      "modifierFlags" : 524288
     },
     "smaller" : {
       "keyCode" : 27,
@@ -318,20 +331,24 @@
     },
     "thirdFourth" : {
       "keyCode" : 8,
-      "modifierFlags" : 786432
+      "modifierFlags" : 524288
     },
     "toggleTodo" : {
       "keyCode" : 11,
       "modifierFlags" : 786432
     },
+    "topHalf" : {
+      "keyCode" : 126,
+      "modifierFlags" : 786432
+    },
     "topLeft" : {
-      "keyCode" : 12,
-      "modifierFlags" : 393216
+      "keyCode" : 0,
+      "modifierFlags" : 917504
     },
     "topRight" : {
-      "keyCode" : 13,
-      "modifierFlags" : 393216
+      "keyCode" : 1,
+      "modifierFlags" : 917504
     }
   },
-  "version" : "76"
+  "version" : "82"
 }
